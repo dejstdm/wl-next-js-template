@@ -1,6 +1,6 @@
 "use client";
 
-import { NavBar, Footer, FacebookIcon, InstagramIcon, XTwitterIcon } from "@dejstdm/white-label-ui";
+import { NavBar, Footer, FacebookIcon, XTwitterIcon } from "@dejstdm/white-label-ui";
 
 interface SiteLayoutProps {
   children: React.ReactNode;
@@ -25,29 +25,31 @@ export default function SiteLayout({ children }: SiteLayoutProps) {
     {
       name: "Facebook",
       href: "https://facebook.com/lays",
-      icon: <FacebookIcon size={24} />,
+      icon: <FacebookIcon size={32} color="white" />,
     },
     {
-      name: "Instagram",
-      href: "https://instagram.com/lays",
-      icon: <InstagramIcon size={24} />,
-    },
-    {
-      name: "YouTube",
-      href: "https://youtube.com/lays",
-      icon: <XTwitterIcon size={24} />,
+      name: "Twitter",
+      href: "https://twitter.com/lays",
+      icon: <XTwitterIcon size={32} color="white" />,
     },
   ];
 
   return (
     <>
-      <NavBar items={navItems} sticky />
+      <NavBar 
+        items={navItems} 
+        sticky 
+        logoSrc="/images/logo.png"
+        logoAlt="Lay's Logo"
+      />
       {children}
       <Footer
         links={footerLinks}
         socialLinks={socialLinks}
         copyright="PEPSICO"
         copyrightYear="2025"
+        logoSrc="/images/logo.png"
+        logoAlt="Lay's Logo"
       />
     </>
   );

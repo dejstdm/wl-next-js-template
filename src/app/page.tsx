@@ -16,7 +16,7 @@ export default function Home() {
   const products = [
     {
       id: 1,
-      image: "/images/lays-gourmet.png",
+      image: "/images/3168930179146---LAYS-GOURMET-SALT.png",
       imageAlt: "Lay's Gourmet chips",
       title: "Lay's Gourmet",
       description: "<p>With Lay's Gourmet, we pair each flavor with the texture that will best enhance it. Lay's Gourmet, elevate your appetizer.</p>",
@@ -25,7 +25,7 @@ export default function Home() {
     },
     {
       id: 2,
-      image: "/images/lays-classic.png",
+      image: "/images/LAYS-NATURE-135G_0.png",
       imageAlt: "Lay's Classic chips",
       title: "Lay's Classic",
       description: "<p>Lay's mission is to offer you irresistible chips to brighten up your appetizers, your summer barbecues, or to accompany your picnics.</p>",
@@ -34,7 +34,7 @@ export default function Home() {
     },
     {
       id: 3,
-      image: "/images/lays-old-recipe.png",
+      image: "/images/LAY'S ANCIENNE NATURE 155G 1_0.png",
       imageAlt: "Lay's Old Recipe chips",
       title: "Lay's Old Recipe",
       description: "<p>Lay's Old Recipe chips are potatoes cut into thin slices and slowly cooked for more crispiness.</p>",
@@ -43,7 +43,7 @@ export default function Home() {
     },
     {
       id: 4,
-      image: "/images/lays-farm-recipe.png",
+      image: "/images/05_FR_LAY'S PAYSANNE NATURE 155G_826x826px_0.png",
       imageAlt: "Lay's Farm Recipe chips",
       title: "Lay's Farm Recipe",
       description: "<p>Crave the generosity of Lay's Farm Recipe chips! Large wavy, thick, terribly crunchy chips with a good potato taste.</p>",
@@ -52,7 +52,7 @@ export default function Home() {
     },
     {
       id: 5,
-      image: "/images/lays-baked.png",
+      image: "/images/Lays-cuites-four-NATURE_0.png",
       imageAlt: "Lay's Baked chips",
       title: "Lay's Baked",
       description: "<p>Slightly striated for more crispiness, they offer a good potato taste and a delicious flavor, while limiting their fat content.</p>",
@@ -61,7 +61,7 @@ export default function Home() {
     },
     {
       id: 6,
-      image: "/images/lays-individual.png",
+      image: "/images/LAY'S-MPK-SEL-6x25g_0.png",
       imageAlt: "Lay's Individual Format chips",
       title: "Lay's Individual Format",
       description: "<p>Find your favorite flavors in individual format for even more pleasure: ideal to take away for your picnics and barbecues!</p>",
@@ -70,7 +70,7 @@ export default function Home() {
     },
     {
       id: 7,
-      image: "/images/lays-max.png",
+      image: "/images/LAYS-MAX-NATURE_0.png",
       imageAlt: "Lay's MAX chips",
       title: "Lay's MAX",
       description: "<p>Lay's MAX, the range of wavy chips from Lay's.</p>",
@@ -79,7 +79,7 @@ export default function Home() {
     },
     {
       id: 8,
-      image: "/images/lays-3d.png",
+      image: "/images/LAYS-3DS-Nature_0.png",
       imageAlt: "Lay's 3D chips",
       title: "Lay's 3D",
       description: "<p>Enjoy Lay's 3D's for your appetizers: delicious unique & crunchy corn cones thanks to their 3D shape!</p>",
@@ -91,25 +91,25 @@ export default function Home() {
   const recipes = [
     {
       id: 1,
-      image: "/images/lays-gourmet.png",
+      image: "/images/3168930179146---LAYS-GOURMET-SALT.png",
       imageAlt: "Lay's Gourmet recipe",
       href: "/recipes/gourmet",
     },
     {
       id: 2,
-      image: "/images/lays-classic.png",
+      image: "/images/LAYS-NATURE-135G_0.png",
       imageAlt: "Lay's Classic recipe",
       href: "/recipes/classic",
     },
     {
       id: 3,
-      image: "/images/lays-old-recipe.png",
+      image: "/images/LAY'S ANCIENNE NATURE 155G 1_0.png",
       imageAlt: "Lay's Old Recipe recipe",
       href: "/recipes/old-recipe",
     },
     {
       id: 4,
-      image: "/images/lays-farm-recipe.png",
+      image: "/images/05_FR_LAY'S PAYSANNE NATURE 155G_826x826px_0.png",
       imageAlt: "Lay's Farm Recipe recipe",
       href: "/recipes/farm-recipe",
     },
@@ -118,25 +118,25 @@ export default function Home() {
   const images = [
     {
       id: 1,
-      src: "/images/lays-gourmet.png",
+      src: "/images/3168930179146---LAYS-GOURMET-SALT.png",
       alt: "Lay's Gourmet chips packaging",
       href: "/products/gourmet",
     },
     {
       id: 2,
-      src: "/images/lays-classic.png",
+      src: "/images/LAYS-NATURE-135G_0.png",
       alt: "Lay's Classic chips packaging",
       href: "/products/classic",
     },
     {
       id: 3,
-      src: "/images/lays-old-recipe.png",
+      src: "/images/LAY'S ANCIENNE NATURE 155G 1_0.png",
       alt: "Lay's Old Recipe chips packaging",
       href: "/products/old-recipe",
     },
     {
       id: 4,
-      src: "/images/lays-farm-recipe.png",
+      src: "/images/05_FR_LAY'S PAYSANNE NATURE 155G_826x826px_0.png",
       alt: "Lay's Farm Recipe chips packaging",
       href: "/products/farm-recipe",
     },
@@ -172,29 +172,25 @@ export default function Home() {
 
   const socialMediaItems = [
     {
-      id: 1,
-      image: "/images/lays-gourmet.png",
+      image: "/images/3168930179146---LAYS-GOURMET-SALT.png",
       alt: "Lay's Gourmet social post",
       url: "https://facebook.com/lays",
       platform: "facebook",
     },
     {
-      id: 2,
-      image: "/images/lays-classic.png",
+      image: "/images/LAYS-NATURE-135G_0.png",
       alt: "Lay's Classic social post",
       url: "https://instagram.com/lays",
       platform: "instagram",
     },
     {
-      id: 3,
-      image: "/images/lays-old-recipe.png",
+      image: "/images/LAY'S ANCIENNE NATURE 155G 1_0.png",
       alt: "Lay's Old Recipe social post",
       url: "https://facebook.com/lays",
       platform: "facebook",
     },
     {
-      id: 4,
-      image: "/images/lays-farm-recipe.png",
+      image: "/images/05_FR_LAY'S PAYSANNE NATURE 155G_826x826px_0.png",
       alt: "Lay's Farm Recipe social post",
       url: "https://instagram.com/lays",
       platform: "instagram",
@@ -217,7 +213,7 @@ export default function Home() {
   return (
     <>
       <Hero
-        backgroundImage="/images/lays-gourmet.png"
+        backgroundImage="/images/3168930179146---LAYS-GOURMET-SALT.png"
         headline="Lay's Chips"
         subheadline="<p>Irresistible chips for all your moments</p>"
         body="<p>Discover our range of delicious chips, made with carefully selected potatoes and traditional recipes. Perfect for your appetizers, barbecues, and picnics.</p>"
