@@ -100,6 +100,11 @@ export default function QualityPage() {
         products={qualityProducts}
       />
 
+      <TextSection
+        headline="Compare Our Products"
+        text="<p>Each range in the Lay's family has its own personality. Lay's Gourmet focuses on refined recipes and textures, Lay's Classic offers the iconic taste you know and love, Lay's Old Recipe highlights traditional slow-cooking, and Lay's Farm Recipe celebrates generous cuts with a good potato taste.</p><p>Compare the flavors, textures, and occasions for each range to find the chips that best match your moments: everyday snacking, special appetizers, or sharing with friends and family.</p>"
+      />
+
       <FAQ
         headline="Quality & Safety FAQ"
         items={qualityFaqItems}
